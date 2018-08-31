@@ -1,5 +1,6 @@
 package LoginSys;
 
+import java.awt.Component;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -74,6 +75,9 @@ public class LoginS {
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+				
+				
 			}
 		});
 		btnNewButton.setBounds(35, 225, 117, 29);
@@ -92,6 +96,9 @@ public class LoginS {
 		
 		JButton button_1 = new JButton("Exit");
 		button_1.addActionListener(new ActionListener() {
+			private Component frmLoginSystem;
+			private JFrame frmLoginSystems;
+
 			public void actionPerformed(ActionEvent e) {
 				
 				frmLoginSystems = new JFrame("Exit");
